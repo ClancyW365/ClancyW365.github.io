@@ -1,0 +1,327 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    padding-top: 5px;
+    background-color: #fff2f2;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+}
+header a span{
+    color: #f48b00;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 100px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    text-decoration: underline black;
+    color: #f48b00;
+    transition: .15s;
+}
+nav ul li a:active{
+    text-decoration: underline #f48b00;
+    color: black;
+    transition: .15s;
+}
+.intro{
+    width: 100%;
+    height: 450px;
+    background-image: url(docket/people.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.intro p {
+    padding-top: 20px;
+    text-indent: 35.5%;
+    color: white;
+    font-size: 23px;
+}
+p.noma1{
+    margin-top: 20px;
+}
+p.noma2{
+text-indent: 40%;}
+p.noma3{
+text-indent: 39%;
+}
+p.top{
+    margin-top: 40px;
+    text-indent: 30%;
+}
+p.last{
+    margin-top: 40px;
+    text-indent: 36%;
+}
+.intro p span{
+    color: #f48b00;
+}
+.intro p a{
+    text-decoration: none;
+    color: #f48b00;
+    font-weight: bold;
+
+}
+.intro p a:hover{
+    text-decoration: underline white;
+    color: #f48a009c;
+    transition: .15s;
+}
+/* about */
+h2{
+    color: #f48b00;
+    text-indent: 40%;
+    margin-bottom: 10px;
+}
+h2:hover{
+    text-decoration: underline;
+}
+.more{
+    margin-left: 100px;   
+}
+.foundationn, .missionn, .visionn{
+    display: flex;
+    margin-bottom: 10px;
+}
+.foundation{
+    width: 500px;
+    height: 450px;
+    background-color: rgba(127, 255, 212, 0.63);
+    margin-right: 20px;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-top: 10%;
+}
+.foundation h3{
+    padding-bottom: 15px;
+}
+.foundation span{
+    color: #f48b00;
+    text-decoration: underline ;
+}
+.mission{
+    width: 500px;
+    height: 450px;
+    background-color: rgba(127, 255, 212, 0.63);
+    margin-right: 20px;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-top: 10%;
+}
+.mission h3{
+    padding-bottom: 15px;
+}
+.mission q{
+    font-weight: bold;
+    text-decoration: underline #f48b00;
+}
+.vision{
+     width: 500px;
+    height: 450px;
+    background-color: rgba(127, 255, 212, 0.63);
+    margin-right: 20px;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-top: 10%;
+}
+.vision h3{
+    padding-bottom: 15px;
+}
+.vision span{
+    font-weight: bold;
+    text-decoration: underline #f48b00;
+}
+.img1{
+    width: 500px;
+    height: 450px;
+    background-image: url(docket/mech.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+} 
+.img2{
+    width: 500px;
+    height: 450px;
+    background-image: url(docket/cs.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+} 
+.img3{
+    width: 500px;
+    height: 450px;
+    background-image: url(docket/ct.jpg);
+    background-size: cover;
+    background-position-y: 80%;
+    border-radius: 30px;
+} 
+.img1:hover{
+    box-shadow: -10px 8px 10px black;
+} 
+.img2:hover{
+    box-shadow: -10px 8px 10px black;
+} 
+.img3:hover{
+    box-shadow: -10px 8px 10px black;
+} 
+.more h3{
+    text-indent: 40%;
+    margin-top: 7px;
+    color: #f48b00;
+}
+
+/* courses */
+h3.offer{
+    margin-top: 30px;
+    text-indent: 43%;
+    color: #f48b00;
+    font-weight: bold;
+}
+.courses{
+    margin-top: 10px;
+    width: 700px;
+    height: 315px;
+    background-color: rgba(127, 255, 212, 0.63);
+    margin: 0px auto;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+h3.offer:hover{
+    text-decoration: underline black;
+}
+.courses li{
+    margin-top: 10px;
+    text-indent: 10%;
+    list-style: none;
+}
+.imgg1{
+    margin-top: 7px;
+    display: inline-flex;
+    width: 300px;
+    height: 250px;
+    background-image: url(docket/people.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.imgg2{
+    margin-top: 7px;
+    display: inline-flex;
+    width: 300px;
+    height: 250px;
+    background-image: url(docket/mech.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.imgg3{
+    margin-top: 7px;
+    display: inline-flex;
+    width: 300px;
+    height: 250px;
+    background-image: url(docket/cs.jpg);
+    background-size: cover;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.imgg4{
+    margin-top: 7px;
+    display: inline-flex;
+    width: 300px;
+    height: 250px;
+    background-image: url(docket/ct.jpg);
+    background-size: cover;
+    background-position-y: 80%;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.imgg1:hover{
+    box-shadow: 5px 6px 7px black;
+    width: 310px;
+    height: 251px;
+}
+.imgg2:hover{
+    box-shadow: 5px 6px 7px black;
+    width: 310px;
+    height: 251px;
+}
+.imgg3:hover{
+    box-shadow: 5px 6px 7px black;
+    width: 310px;
+    height: 251px;
+}
+.imgg4:hover{
+    box-shadow: 5px 6px 7px black;
+    width: 310px;
+    height: 251px;
+}
+.bronchure{
+    margin-top: 10px;
+    text-indent: 40%;
+}
+/* section footer */
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(127, 255, 212, 0.63);
+    height: 250px;
+}
+.footer .location, .contact{
+    padding-top: 40px;
+}
+.footer h3{
+    color: #f48b00;
+    margin-left: 60px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.footer p{
+    padding-bottom: 5px;
+}
+.footer h3:hover{
+    text-decoration: underline black;
+    transition: .25s;
+}
+footer{
+    background-color: rgb(238, 229, 229);
+    height: 40px;
+    align-items: baseline;
+}
+footer p{
+    text-indent: 35%;
+    padding-top: 10px;
+}
+footer p span{
+   color: #f48b00;
+}
